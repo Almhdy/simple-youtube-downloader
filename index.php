@@ -1,6 +1,6 @@
 
 <?php 
-// extract id from the form
+// extract id from the form 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $link = $_POST['link'];
   $id = str_replace('?', '&', $link); 
